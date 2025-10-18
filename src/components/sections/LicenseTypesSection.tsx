@@ -208,9 +208,11 @@ export default function LicenseTypesSection() {
               {/* Content */}
               <div className="p-6 flex-1 flex flex-col">
                 {/* Title */}
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                  {type.title}
-                </h3>
+                <Link href={`/license/${type.id}`}>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                    {type.title}
+                  </h3>
+                </Link>
 
                 {/* Description */}
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
