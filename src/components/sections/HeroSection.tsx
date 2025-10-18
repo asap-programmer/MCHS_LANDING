@@ -37,7 +37,7 @@ export default function HeroSection() {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <Image
-          src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=1080&fit=crop"
+          src="https://e-cis.info/upload/iblock/df2/tmv7b3hewvhovdv9xz04q71oi6nj7lpy.jpg"
           alt="Background"
           fill
           className="object-cover"

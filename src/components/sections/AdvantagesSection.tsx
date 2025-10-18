@@ -122,7 +122,7 @@ export default function AdvantagesSection() {
       <div className="absolute inset-0 opacity-5">
         <Image
           fill
-          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&h=1080&fit=crop"
+          src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/b6b/a51/c53/b6ba51c5399b157d9ba5142006b584b9.jpg"
           alt="Background"
           className="object-cover"
         />
