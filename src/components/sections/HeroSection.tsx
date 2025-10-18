@@ -39,7 +39,8 @@ export default function HeroSection() {
         <Image
           src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=1080&fit=crop"
           alt="Background"
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
         />
       </div>
 

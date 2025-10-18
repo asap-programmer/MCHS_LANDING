@@ -133,9 +133,11 @@ export default function LicenseTypesSection() {
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
                 <Image
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   src={type.image}
                   alt={type.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 {/* Gradient Overlay */}
                 <div className={`absolute inset-0 bg-gradient-to-t ${type.color} opacity-0 group-hover:opacity-60 transition-opacity duration-300`}></div>

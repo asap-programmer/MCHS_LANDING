@@ -7,7 +7,7 @@ export default function Logo({className} : {
   return (
     <div className="flex items-center gap-3">
       <div className="relative w-12 h-12">
-        <Image src={logo} alt="mchs_logo" className="w-full h-full object-contain" />
+        <Image fill src={logo} alt="mchs_logo" className="object-contain" />
       </div>
       <div>
         <h1 className={`text-xl font-bold ${className} text-gray-900`}>Лицензия МЧС</h1>

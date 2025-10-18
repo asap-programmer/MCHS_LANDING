@@ -121,9 +121,10 @@ export default function AdvantagesSection() {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <Image
+          fill
           src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&h=1080&fit=crop"
           alt="Background"
-          className="w-full h-full object-cover"
+          className="object-cover"
         />
       </div>
 
